@@ -86,3 +86,15 @@ These error classes are used for handling specific error scenarios within the AP
 dotenv  : we can keep sensitive information separate from out codebase, making it easier to manage and maintain different configurations for different environments (e.g., development, staging, production) without modifying the application's code.
 
 require('express-async-errors');   // it helps to write repetative try catch codes without calling
+
+
+app.use -> public
+app.use -> express.json()
+
+app.use -> routes/main
+ 
+ then controllers/main.js is called and values are stored in const
+
+before doing any operation on those stuff we call or check for middleware/auth to check authentication/verification of token(validity)
+
+then check  middleware/not-found and then middleware/errorHandler
