@@ -1,5 +1,5 @@
 require('dotenv').config();
-require('express-async-errors');
+require('express-async-errors');   // it helps to write repetative try catch codes without calling
 
 const express = require('express');
 const app = express();

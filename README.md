@@ -78,3 +78,10 @@ This file exports custom error classes used within the application. The availabl
 - `customAPIError`: Represents a custom API error.
 
 These error classes are used for handling specific error scenarios within the API.
+
+
+
+////////////////////////////////////////////////////////////////////
+
+dotenv  : we can keep sensitive information separate from out codebase, making it easier to manage and maintain different configurations for different environments (e.g., development, staging, production) without modifying the application's code.
+
