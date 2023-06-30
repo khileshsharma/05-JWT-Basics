@@ -85,3 +85,4 @@ These error classes are used for handling specific error scenarios within the AP
 
 dotenv  : we can keep sensitive information separate from out codebase, making it easier to manage and maintain different configurations for different environments (e.g., development, staging, production) without modifying the application's code.
 
+require('express-async-errors');   // it helps to write repetative try catch codes without calling
